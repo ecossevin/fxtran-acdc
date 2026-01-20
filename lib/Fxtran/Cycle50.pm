@@ -50,7 +50,10 @@ sub simplify
     '//named-E[string(.)="OHARAT"]'                                => &e ('.FALSE.'),
     '//named-E[string(.)="TURBN%LHARAT"]'                          => &e ('.FALSE.'),
     '//named-E[string(.)="HTURBDIM"]'                              => &e ('"1DIM"'),
-    '//named-E[string(.)="GOCEAN"]'                                => &e ('".FALSE"'),
+    '//named-E[string(.)="GOCEAN"]'                                => &e ('.FALSE.'),
+    '//named-E[string(.)="TURBN%LLEONARD"]'                        => &e ('.FALSE.'),
+    '//named-E[string(.)="OFLYER"]'                                => &e ('.FALSE.'),
+    '//named-E[string(.)="OIBM"]'                                  => &e ('.FALSE.'),
   );
 
   for my $n (&F ('.//n/text()[string(.)="YDGEO"', $d))
